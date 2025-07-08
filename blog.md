@@ -119,29 +119,10 @@ For more details, refer to the plugin documentation or the Strapi marketplace pa
 
 
 # Example Strapi Project
-There is an example strapi projec (`strapi-genai-plugin-example`) in the `example` folder. Follow below steps:
-1. Navigate to the `example/strapi-genai-plugin-example` directory:
-    ```bash
-    cd example/strapi-genai-plugin-example
-    ```
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-3. Copy the `.env.example` file to `.env` and update the `GEMINI_API_KEY` with your Gemini API key:
-    ```bash
-    cp .env.example .env
-    ```
-4. Start the Strapi development server:
-    ```bash
-    npm run develop
-    ```
-5. Open your browser and go to [http://localhost:1337/admin](http://localhost:1337/admin) to access the Strapi admin panel and test the plugin.
+There is an example strapi projec [strapi-genai-plugin-example](https://github.com/sshindetech/strapi-genai-plugin-example). Follow the steps in the example project to see the plugin demo.
 
-6. use the sample user admin@demo.com and password: `StrapiDemo123`
-
-## Sample Screen
-### Create new collection type
+# Sample Screen
+## Create new collection type
 ![Custom Text AI field](docs/images/1.png)
 ![Custom Text AI field](docs/images/2.png)
 ### Add fields (custom and regular) to the collection
@@ -150,14 +131,14 @@ There is an example strapi projec (`strapi-genai-plugin-example`) in the `exampl
 ![Custom Text AI field](docs/images/5.png)
 ![Custom Text AI field](docs/images/6.png)
 ![Custom Text AI field](docs/images/7.png)
-### Create new entry in the newly created collection
+## Create new entry in the newly created collection
 ![Custom Text AI field](docs/images/8.png)
-### Use the custom Text AI fields to generate content (using a prompt)
+## Use the custom Text AI fields to generate content (using a prompt)
 ![Custom Text AI field](docs/images/9.png)
 
 ---
 
-## Conclusion
+# Conclusion
 
 The `@genai/gemini-content-generator` plugin brings the power of Google Gemini AI to Strapi, making content creation faster and smarter. With a robust architecture, clean admin UI, and automated publishing, it's ready for production use and open-source collaboration.
 
@@ -165,4 +146,3 @@ The `@genai/gemini-content-generator` plugin brings the power of Google Gemini A
 
 ---
 
-For more details, check the [README](./README.md) or open an issue on GitHub!

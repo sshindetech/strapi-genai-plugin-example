@@ -41,8 +41,8 @@ After the plugin installation and configuration, you can access the `Text AI` fi
 For more details, refer to the plugin documentation or the Strapi marketplace page.
 
 
-# Example Strapi Project
-There is an example strapi projec (`strapi-genai-plugin-example`) in the `example` folder. Follow below steps:
+# Using the Example Strapi Project
+Follow below steps:
 1. Navigate to the `example/strapi-genai-plugin-example` directory:
     ```bash
     cd example/strapi-genai-plugin-example
