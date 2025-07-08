@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articleContent": {
+      "type": "customField",
+      "customField": "plugin::gemeni-content-generator.text-ai"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
